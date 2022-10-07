@@ -1,0 +1,38 @@
+#cs1300-gallery {
+  /*background-color: rgb(214, 242, 205);*/
+  font-family: Gill Sans, sans-serif;font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.gallery-item-container {
+  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  /*background-color: rgb(214, 242, 205);*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.observations-container{
+  font-family: Gill Sans, sans-serif;font-size: 15px;
+  background-color: rgb(157, 181, 150);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.gallery-item { 
+  /*background-color: rgb(214, 242, 205);*/
+  gap: 10rem;
+  width: 70rem;
+}
+
+.persona-item {
+  gap: 5rem;
+  width: 40rem;
+}
